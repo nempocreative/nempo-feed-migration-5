@@ -22,12 +22,12 @@ export function NempoHariGuruSlide({ exportRef }: { exportRef?: RefObject<HTMLEl
       <NempoHeader badge={NEMPO_HARI_GURU_DATE} />
 
       <div className="nhg-hero" aria-hidden="true">
-        <p className="nhg-arc">{P.arc}</p>
         <h2 className="nhg-title">
           {P.title.map((line) => (
             <span key={line}>{line}</span>
           ))}
         </h2>
+        <p className="nhg-arc">{P.arc}</p>
       </div>
 
       <img className="nhg-teachers" src={teachers.url} alt="" draggable={false} />
