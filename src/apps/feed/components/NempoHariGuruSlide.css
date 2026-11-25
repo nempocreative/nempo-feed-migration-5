@@ -1,6 +1,6 @@
 /* NEMPO Feed slide 64 — Hari Guru poster after the owner's red reference. Colors live in src/styles.css (.nhg-root).
    Layout (cqw, slide is 100 × 133.3): header, centered arc + two-line distressed title 19–52, teachers lower right 53–121,
-   thanks lower left (never under the teachers or title), footer. Nothing overlaps.
+   thanks lower left (never under the teachers or title), footer. Nothing overlaps. */
 .nhg-root {
   position: relative; isolation: isolate; width: 100%; aspect-ratio: 3 / 4; overflow: hidden;
   container-type: inline-size; background: var(--nhg-red-deep); color: var(--kmt-text);
