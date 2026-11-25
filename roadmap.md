@@ -1,0 +1,32 @@
+# Roadmap
+
+- [x] Migrasi proyek dari github.com/nempocreative/remix-of-remix-of-remix-of-remix-of-remix-of-nempo-feed-migration-5-54f9b1b3 (kode, slide, gambar, tes)
+- [ ] Salin ulang 199 foto/video yang masih tersimpan di tiga proyek Lovable lama — menunggu link situs terbit proyek lama atau unggahan ulang dari pemilik
+- [x] Migrasi seluruh proyek dari github.com/nempocreative/remix-of-nempo-feed-migration-5 (kode, slide, gambar, tes)
+- [ ] Salin 175 foto/video lain yang masih tersimpan di dua proyek lama yang terkunci (slide 52–57 sudah dipulihkan) — menunggu link situs terbit proyek lama atau unggahan ulang dari pemilik
+- [ ] Migrasi Tion Feed, MoU dan GGS Price List — setelah NEMPO Feed beres
+- [x] NEMPO Feed slide 56: desain ulang jadi poster ceria (gaya poster festival anak) dengan isi "Cara Kolaborasi" tetap
+- [x] Slide 56: gambar utama = ilustrasi KARTUN datar (gaya poster Kids Summer Fest, bukan foto) cafe/tempat wisata dengan panggung, penampil dan penonton; PNG unduhan dibuat ulang
+- [x] Slide 55 & 56: tombol Download PNG dibuat ulang dari pratinjau (3240×4320, file milik proyek ini) — dulu menunjuk berkas proyek lama yang 404
+- [x] Slide 56: desain ulang jadi poster film "gelap sinematik" (judul emas, tagline miring, baris rilis, blok kredit) — menggantikan poster ceria
+- [x] Slide 56: PNG unduhan dibuat ulang dari desain poster film (3240×4320)
+- [x] Slide 56: header disamakan dengan slide lain; PNG unduhan dibuat ulang
+- [x] Slide 56: footer disamakan dengan footer slide 35; PNG unduhan dibuat ulang
+- [x] Slide 56: judul diganti tulisan emas buatan AI (gaya judul film); PNG unduhan dibuat ulang
+- [x] Slide 56: judul pakai gaya huruf poster contoh "Suara Petualang!" (putih); PNG unduhan dibuat ulang
+- [x] Slide 56: latar diganti gambar panggung kelapa dari pemilik, semua tulisan dibuat lucu/ceria; PNG unduhan dibuat ulang
+- [x] Slide 56: baris "Segera di cafe & tempat wisata" dimiringkan sama seperti stiker di atasnya; PNG unduhan dibuat ulang
+- [x] NEMPO Feed slide 57: poster ceria Car Free Day Jl. Ibrahim Adjie Garut ("jajan apa?": Cilok & Cimol, Seblak, Bubur Ayam, Surabi), judul harus jelas terbaca; PNG unduhan
+- [x] NEMPO Feed slide 58: Car Free Day Jl. Ibrahim Adji Garut dengan info dari internet; gambar harus FOTO ASLI dari internet (bukan ilustrasi AI)
+- [x] GGS Story slide 08: video pijat estetik (close-up kaki lalu tangan) dengan teks "Massage time" di tengah + download MP4
+- [ ] GGS Story slide 08: bingkai header/footer Story belum dipasang — menunggu pemilik mengirim ulang gambar bingkainya (media proyek lama tidak ikut)
+- [x] NEMPO Feed slide 59 dst: layanan Momen Digital, karakter desain seperti slide 57, dengan gambaran web Year Book (contoh github.com/nempocreative/nempo-web-20); gambar dibuat ulang milik proyek ini; PNG unduhan
+- [x] NEMPO Feed slide 59–62: tanpa ikon/hiasan bintang (judul, poin, ikon, papan tulis); PNG unduhan dibuat ulang
+- [x] NEMPO Feed slide 59–62: baris teks di bawah pita kuning dihapus; PNG unduhan dibuat ulang
+- [x] GGS Feed slide 63: promo Perawatan ujung rambut sampai ujung kaki Rp 250.000 (24 Nov–5 Des 2026) + Download PNG 3240×4320
+- [x] GGS Feed slide 63: perbaiki bentuk (shape) tanggal; PNG unduhan dibuat ulang
+- [x] GGS 63: hapus strip putih bawah di unduhan + huruf k/g judul jangan terpotong
+- [x] GGS 63: unduhan tanpa garis putih di tepi (sama seperti pratinjau)
+- [x] Cek semua unduhan PNG: garis putih di tepi atas GGS 19 juga dihapus
+- [x] GGS Feed slide 64: Hari Guru 25 Nov 2026 — promo hari ini saja, Massage Rp 85.000 & Creambath Rp 80.000 + Download PNG 3240×4320
+- [ ] NEMPO Feed slide 64: poster peringatan Hari Guru 25 Nov 2026 (ucapan saja, tanpa promo, tanpa bintang) + Download PNG 3240×4320
