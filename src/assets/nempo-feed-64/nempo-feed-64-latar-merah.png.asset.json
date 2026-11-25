@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "0f9eaee5-d41f-4d8b-a421-0d5131d59e40",
-  "project_id": "7e376f59-2d9d-48e5-8e02-5d475146520e",
-  "url": "/__l5e/assets-v1/0f9eaee5-d41f-4d8b-a421-0d5131d59e40/nempo-feed-64-latar-merah.png",
-  "r2_key": "a/v1/7e376f59-2d9d-48e5-8e02-5d475146520e/0f9eaee5-d41f-4d8b-a421-0d5131d59e40/nempo-feed-64-latar-merah.png",
-  "original_filename": "nempo-feed-64-latar-merah.png",
-  "size": 2354312,
   "content_type": "image/png",
-  "created_at": "2026-11-25T08:22:14Z"
+  "created_at": "2026-11-25T08:22:14Z",
+  "original_filename": "nempo-feed-64-latar-merah.png",
+  "project_id": "5568b67b-4249-4226-bed0-1908b4a91e8d",
+  "r2_key": "a/v1/5568b67b-4249-4226-bed0-1908b4a91e8d/0f9eaee5-d41f-4d8b-a421-0d5131d59e40/nempo-feed-64-latar-merah.png",
+  "size": 2354312,
+  "url": "/__l5e/assets-v1/0f9eaee5-d41f-4d8b-a421-0d5131d59e40/nempo-feed-64-latar-merah.png",
+  "version": 1
 }
