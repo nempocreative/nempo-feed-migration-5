@@ -10,10 +10,10 @@ const iso = '2026-11-25';
 
 export const nempoHariGuru = {
   kicker: 'Hari Guru Nasional',
-  headline: { lead: 'Selamat', accent: 'Hari Guru' },
-  message: 'Terima kasih, Bapak & Ibu Guru, atas ilmu dan kesabarannya.',
+  arc: 'Untuk semua guru hebat Indonesia',
+  title: ['Selamat', 'Hari', 'Guru'],
+  thanks: ['Terima kasih telah', 'membentuk masa depan', 'yang lebih cerah'],
   tagline: 'Pahlawan tanpa tanda jasa',
-  chalk: ['Terima kasih,', 'Guru!'],
   date: { weekday: weekdayId(iso), day: '25', month: 'November', year: '2026', iso },
 } as const;
 

@@ -816,16 +816,17 @@
   --nmm-tile-blue: linear-gradient(150deg, #8fd0ff 0%, #4fa8f5 100%);
   --nmm-tile-shine: color-mix(in srgb, #ffffff 30%, transparent);
 }
-/* Nempo Feed slide 64: Hari Guru Nasional commemoration poster, basic NEMPO blue + yellow. */
+/* Nempo Feed slide 64: Hari Guru Nasional poster after the owner's red reference — deep red grunge wall, distressed white type. */
 .nhg-root {
-  --nhg-bg: radial-gradient(circle at 50% 68%, #1a7fd6 0%, #0b4f93 46%, #062f4d 100%);
-  --nhg-glow: radial-gradient(ellipse, color-mix(in srgb, #ffdd00 20%, transparent) 0%, color-mix(in srgb, #5fb4ff 18%, transparent) 40%, transparent 70%);
-  --nhg-yellow: #ffdd00;
-  --nhg-navy: #062f4d;
-  --nhg-soft: color-mix(in srgb, #ffffff 86%, transparent);
-  --nhg-chalk: #f4f7ee;
-  --nhg-text-shadow: 0 .5cqw 2cqw color-mix(in srgb, #021a2e 40%, transparent);
-  --nhg-art-shadow: drop-shadow(0 2.4cqw 3cqw color-mix(in srgb, #021a2e 45%, transparent));
+  --nhg-red-deep: #4a0608;
+  --nhg-paper: #f5efe6;
+  --nhg-cream: color-mix(in srgb, #f5efe6 92%, transparent);
+  --nhg-gold: #f2d1a2;
+  --nhg-shade: linear-gradient(180deg, color-mix(in srgb, #2a0203 55%, transparent) 0%, transparent 22%, transparent 62%, color-mix(in srgb, #2a0203 62%, transparent) 100%);
+  --nhg-text-shadow: 0 .4cqw 1.6cqw color-mix(in srgb, #1a0102 60%, transparent);
+  --nhg-title-shadow: .6cqw .8cqw 0 color-mix(in srgb, #1a0102 55%, transparent), 0 1.6cqw 3cqw color-mix(in srgb, #1a0102 45%, transparent);
+  --nhg-art-shadow: drop-shadow(-1.2cqw 2cqw 2.4cqw color-mix(in srgb, #1a0102 55%, transparent));
+  --nhg-grunge: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.4' numOctaves='2' seed='7'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 4.0 -0.6'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23g)'/%3E%3C/svg%3E");
 }
 /* Nempo Feed slides 55–56: collab call for cafes & tourist spots, basic NEMPO blue + yellow (slide 45). */
 .nko-root {
