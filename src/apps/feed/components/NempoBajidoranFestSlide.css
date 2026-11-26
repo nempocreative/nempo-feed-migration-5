@@ -25,15 +25,21 @@
 /* Performers: DJs at the back sides, dancers and the kendang group in front; bottom fades into the info area */
 .nbx-cast { position: absolute; z-index: 5; inset: 0; pointer-events: none; }
 .nbx-cast img { position: absolute; display: block; height: auto; user-select: none; filter: var(--nbx-cutout-shadow); }
-.nbx-dj--green { left: -3cqw; top: 55cqw; width: 30cqw; }
+/* DJ Dityar as a clean cut-out standing at the right edge; his bottom is faded so the photo's own
+   cut at the hips never reads as a hard line. The musicians stay layered in front of him. */
+.nbx-dj--green {
+  right: 0cqw; top: 64cqw; width: 30cqw;
+  -webkit-mask-image: linear-gradient(to top, transparent 0, #000 26%);
+  mask-image: linear-gradient(to top, transparent 0, #000 26%);
+}
 .nbx-dancers { left: 0cqw; top: 79cqw; width: 42cqw; z-index: 2; }
-.nbx-kendang { left: 31cqw; top: 62cqw; width: 58cqw; z-index: 1; }
+.nbx-kendang { left: 18cqw; top: 62cqw; width: 58cqw; z-index: 1; }
 .nbx-tag {
   position: absolute; z-index: 3; padding: .9cqw 2.2cqw; border-radius: 99cqw; white-space: nowrap;
   font-family: 'Anton', sans-serif; font-size: 2.9cqw; line-height: 1; text-transform: uppercase;
   color: var(--nbx-white); background: var(--nbx-ink); box-shadow: var(--nbx-tag-shadow); transform: rotate(-4deg);
 }
-.nbx-tag--green { left: 4cqw; top: 69cqw; }
+.nbx-tag--green { right: 4cqw; top: 74cqw; }
 
 /* Activity pills (like Vibez "Activities") */
 .nbx-activities { position: absolute; z-index: 7; left: 3cqw; right: 3cqw; top: 98cqw; display: flex; justify-content: center; align-items: center; gap: 1.6cqw; }
@@ -77,7 +83,11 @@
 .nbx-story { aspect-ratio: 9 / 16; }
 .nbx-story .nbx-header { top: 16cqw; }
 .nbx-story .nbx-title { top: 34cqw; }
-.nbx-story .nbx-dj--green { top: 81cqw; }
+.nbx-story .nbx-dj--green {
+  top: 84cqw; width: 28cqw;
+  -webkit-mask-image: linear-gradient(to top, transparent 0, #000 42%);
+  mask-image: linear-gradient(to top, transparent 0, #000 42%);
+}
 .nbx-story .nbx-tag--green { top: 95cqw; }
 .nbx-story .nbx-dancers { top: 105cqw; }
 .nbx-story .nbx-kendang { top: 88cqw; }

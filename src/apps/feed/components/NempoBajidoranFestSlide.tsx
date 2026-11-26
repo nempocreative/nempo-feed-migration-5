@@ -7,7 +7,7 @@ import backdrop from '@/assets/nempo-feed-63/nempo-feed-63-latar-festival.webp.a
 import titleArt from '@/assets/nempo-feed-63/nempo-feed-63-judul-bajidoran-dj.webp.asset.json';
 import kendangGroup from '@/assets/nempo-feed-63/nempo-feed-63-kendang.webp.asset.json';
 import dancers from '@/assets/nempo-feed-63/nempo-feed-63-penari.webp.asset.json';
-import djGreen from '@/assets/nempo-feed-63/nempo-feed-63-dj-kaos-hijau.webp.asset.json';
+import djGreen from '@/assets/nempo-feed-63/nempo-feed-63-dj-dityar.png.asset.json';
 import { nempoBajidoranFest as F } from './nempo-bajidoran-fest';
 import './NempoAjakRequestSlide.css';
 import './NempoBajidoranFestSlide.css';
