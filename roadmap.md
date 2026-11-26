@@ -35,3 +35,4 @@
 - [x] Slide 63: samakan footer dengan slide 62, sederhana dan rapi dengan kontak tetap
 - [x] Slide 63: hapus akun Instagram Kala Muda dari footer, sisakan @nempo.id
 - [x] Slide 63: PNG tajam 3240×4320 sesuai tampilan terbaru, hubungkan tombol dan uji hasil unduhan (file identik dengan tangkapan berkualitas tinggi)
+- [x] Slide 65: versi Story 9:16 poster slide 63 dan unduhan PNG 3240×5760, diuji identik dengan tangkapan pratinjau

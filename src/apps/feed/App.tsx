@@ -279,7 +279,7 @@ import { NEMPO_CFD_INFO_SLIDE } from './components/nempo-cfd-info';
 import { NempoCfdInfoSlide } from './components/NempoCfdInfoSlide';
 import { NEMPO_MOMEN_DIGITAL_SLIDES, type NempoMomenDigitalSlideNumber } from './components/nempo-momen-digital';
 import { NempoMomenDigitalSlide } from './components/NempoMomenDigitalSlide';
-import { NEMPO_BAJIDORAN_FEST_SLIDE } from './components/nempo-bajidoran-fest';
+import { NEMPO_BAJIDORAN_FEST_SLIDE, NEMPO_BAJIDORAN_STORY_SLIDE } from './components/nempo-bajidoran-fest';
 import { NempoBajidoranFestSlide } from './components/NempoBajidoranFestSlide';
 import { NEMPO_HARI_GURU_SLIDE } from './components/nempo-hari-guru';
 import { NempoHariGuruSlide } from './components/NempoHariGuruSlide';
@@ -296,6 +296,7 @@ import terimaKasih53Png from '@/assets/nempo-feed-53/nempo-feed-53-hatur-nuhun-t
 import malamMinggu54Png from '@/assets/nempo-feed-54/nempo-feed-54-malam-minggu.png.asset.json';
 import hariGuru64Png from '@/assets/nempo-feed-64/nempo-feed-64-hari-guru.png.asset.json';
 import bajidoran63Png from '@/assets/nempo-feed-63/nempo-feed-63-bajidoran-dj.png.asset.json';
+import bajidoran65Png from '@/assets/nempo-feed-65/nempo-feed-65-bajidoran-story.png.asset.json';
 import hariIni52VideoAsset from '@/assets/nempo-feed-52-hari-ini.mp4.asset.json';
 import { NempoBajidoranSawerSlide } from './components/NempoBajidoranSawerSlide';
 import nempoBajidoranReelDownload from '@/assets/nempo-feed-47-bajidoran-reel-download.mp4.asset.json';
@@ -386,7 +387,8 @@ type FeedSlide =
   | 61
   | 62
   | 63
-  | 64;
+  | 64
+  | 65;
 
 type ClientSlide = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47 | 48 | 49 | 50 | 51 | 52 | 53 | 54 | 55 | 56 | 57 | 58 | 59 | 60 | 61 | 62 | 63 | 64;
 
@@ -3335,7 +3337,7 @@ function App() {
           ? 638
           : isGgsGrandOpeningSlide
             ? 1402
-            : isGgsStory
+            : isGgsStory || (isNempoFeed && activeSlide === NEMPO_BAJIDORAN_STORY_SLIDE)
               ? 1920
               : activeFeed === 'nempo' || (isGgsFeed && (activeClientSlide === 8 || activeClientSlide === 9 || activeClientSlide === 11 || activeClientSlide >= 13))
                 ? 1440
@@ -3557,7 +3559,7 @@ function App() {
       ? isGgsStory
         ? [1, 2, 3, 4, 5, 6, 7, 8]
         : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64]
-      : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, ...DIVISION_SLIDES, NEMPO_PAHLAWAN_SLIDE, NEMPO_CS_SLIDE, NEMPO_BAJIDORAN_SLIDE, NEMPO_BAJIDORAN_REEL_SLIDE, NEMPO_BAJIDORAN_SAWER_SLIDE, 49, NEMPO_SADULI_DJ_SLIDE, NEMPO_AJAK_REQUEST_SLIDE, NEMPO_HARI_INI_SLIDE, NEMPO_TERIMA_KASIH_SLIDE, NEMPO_MALAM_MINGGU_SLIDE, NEMPO_KOLABORASI_SLIDE, NEMPO_KOLABORASI_CARA_SLIDE, NEMPO_CAR_FREE_DAY_SLIDE, NEMPO_CFD_INFO_SLIDE, ...NEMPO_MOMEN_DIGITAL_SLIDES, NEMPO_BAJIDORAN_FEST_SLIDE, NEMPO_HARI_GURU_SLIDE];
+      : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, ...DIVISION_SLIDES, NEMPO_PAHLAWAN_SLIDE, NEMPO_CS_SLIDE, NEMPO_BAJIDORAN_SLIDE, NEMPO_BAJIDORAN_REEL_SLIDE, NEMPO_BAJIDORAN_SAWER_SLIDE, 49, NEMPO_SADULI_DJ_SLIDE, NEMPO_AJAK_REQUEST_SLIDE, NEMPO_HARI_INI_SLIDE, NEMPO_TERIMA_KASIH_SLIDE, NEMPO_MALAM_MINGGU_SLIDE, NEMPO_KOLABORASI_SLIDE, NEMPO_KOLABORASI_CARA_SLIDE, NEMPO_CAR_FREE_DAY_SLIDE, NEMPO_CFD_INFO_SLIDE, ...NEMPO_MOMEN_DIGITAL_SLIDES, NEMPO_BAJIDORAN_FEST_SLIDE, NEMPO_HARI_GURU_SLIDE, NEMPO_BAJIDORAN_STORY_SLIDE];
   const selectedSlide =
     isGgsFeed ? activeClientSlide : activeSlide;
 
@@ -4459,6 +4461,14 @@ function App() {
                   PNG 3240×4320, teks tajam. Di iPad/iPhone pilih “Simpan Gambar” atau “Simpan ke File”.
                 </p>
               </>
+            ) : isNempoFeed && activeSlide === NEMPO_BAJIDORAN_STORY_SLIDE ? (
+              <PrebuiltPngDownload
+                key="nempo-feed-65"
+                src={bajidoran65Png.url}
+                fileName="Nempo-ID-65-Bajidoran-Story.png"
+                label="Download PNG · 3×"
+                className="inline-flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-xs font-bold text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              />
             ) : isNempoFeed && activeSlide === NEMPO_BAJIDORAN_FEST_SLIDE ? (
               <PrebuiltPngDownload
                 key="nempo-feed-63"
@@ -4717,6 +4727,8 @@ function App() {
           <NempoCarFreeDaySlide exportRef={exportRef} />
         ) : isNempoFeed && activeSlide === NEMPO_CFD_INFO_SLIDE ? (
           <NempoCfdInfoSlide exportRef={exportRef} />
+        ) : isNempoFeed && activeSlide === NEMPO_BAJIDORAN_STORY_SLIDE ? (
+          <NempoBajidoranFestSlide story exportRef={exportRef} />
         ) : isNempoFeed && activeSlide === NEMPO_BAJIDORAN_FEST_SLIDE ? (
           <NempoBajidoranFestSlide exportRef={exportRef} />
         ) : isNempoFeed && activeSlide === NEMPO_HARI_GURU_SLIDE ? (

@@ -72,3 +72,17 @@
 .nbx-root .nbx-footer { z-index: 9; bottom: 3.5cqw; font-family: 'DM Sans', sans-serif; }
 .nbx-footer .kmt-pill { line-height: 1.2; }
 .nbx-footer .kmt-pill strong { letter-spacing: 0 !important; }
+
+/* Slide 65: portrait Story composition, preserving the original feed artboard. */
+.nbx-story { aspect-ratio: 9 / 16; }
+.nbx-story .nbx-header { top: 16cqw; }
+.nbx-story .nbx-title { top: 34cqw; }
+.nbx-story .nbx-dj--green { top: 81cqw; }
+.nbx-story .nbx-tag--green { top: 95cqw; }
+.nbx-story .nbx-dancers { top: 105cqw; }
+.nbx-story .nbx-kendang { top: 88cqw; }
+.nbx-story .nbx-activities { top: 132cqw; }
+.nbx-story .nbx-times { top: 141cqw; }
+.nbx-story .nbx-info { top: 151cqw; }
+.nbx-story .nbx-footer { bottom: 9cqw; }
+.nbx-story .nbx-fade { height: 64cqw; }

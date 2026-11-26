@@ -6,6 +6,8 @@ import { nempoBajidoran, weekdayId } from './nempo-bajidoran';
  * hazy stage backdrop, with the same header as the earlier Good Story Cafe event slides (46–53).
  */
 export const NEMPO_BAJIDORAN_FEST_SLIDE = 63;
+export const NEMPO_BAJIDORAN_STORY_SLIDE = 65;
+export const NBX_STORY_EXPORT = { width: 3240, height: 5760 } as const;
 
 /** Prebuilt PNG, captured from the preview at 1080 CSS px × 3. */
 export const NBX_EXPORT = { width: 3240, height: 4320 } as const;

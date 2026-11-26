@@ -20,12 +20,12 @@ const ACTIVITY_TONES = ['gold', 'pink', 'violet'] as const;
  * (NEMPO.ID × Kala Muda, Saduli Ragap, Good Story Cafe), the owner's 3D title lettering, the performers as
  * cut-outs, activity pills, time row, date + venue boxes and rounded contact cards. Static so the PNG matches.
  */
-export function NempoBajidoranFestSlide({ exportRef }: { exportRef?: RefObject<HTMLElement | null> }) {
+export function NempoBajidoranFestSlide({ exportRef, story = false }: { exportRef?: RefObject<HTMLElement | null>; story?: boolean }) {
   const { date, venue, info } = F;
   return (
     <section
       ref={exportRef as RefObject<HTMLElement>}
-      className="nbx-root kmt-root"
+      className={`nbx-root kmt-root${story ? ' nbx-story' : ''}`}
       aria-label={`${F.title} — ${F.activities.join(', ')}. ${date.weekday}, ${date.day} ${date.month} ${date.year}, ${F.schedule.map((s) => `${s.label} ${s.value}`).join(' ')} di ${venue.name}, ${venue.address}. ${info.label} ${info.number}`}
     >
       <img className="nbx-bg" src={backdrop.url} alt="" aria-hidden="true" draggable={false} />

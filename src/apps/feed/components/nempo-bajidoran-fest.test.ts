@@ -1,7 +1,12 @@
 import { describe, expect, it } from 'vitest';
-import { NBX_EXPORT, NEMPO_BAJIDORAN_FEST_SLIDE, nempoBajidoranFest } from './nempo-bajidoran-fest';
+import { NBX_EXPORT, NBX_STORY_EXPORT, NEMPO_BAJIDORAN_STORY_SLIDE, NEMPO_BAJIDORAN_FEST_SLIDE, nempoBajidoranFest } from './nempo-bajidoran-fest';
 
 describe('NEMPO Feed slide 63 Bajidoran DJ event poster', () => {
+  it('places the 9:16 Story version at slide 65', () => {
+    expect(NEMPO_BAJIDORAN_STORY_SLIDE).toBe(65);
+    expect(NBX_STORY_EXPORT).toEqual({ width: 3240, height: 5760 });
+    expect(NBX_STORY_EXPORT.width / NBX_STORY_EXPORT.height).toBe(9 / 16);
+  });
   it('is NEMPO Feed slide 63', () => {
     expect(NEMPO_BAJIDORAN_FEST_SLIDE).toBe(63);
   });
