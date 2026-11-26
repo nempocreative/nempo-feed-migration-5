@@ -1,11 +1,11 @@
 {
-  "asset_id": "6c06c30c-e6c5-4dfe-a957-d8adbb8f897e",
-  "content_type": "image/webp",
-  "created_at": "2026-11-22T11:09:47Z",
+  "version": 1,
+  "asset_id": "da00a898-fdec-423d-8e40-bd004d8f9118",
+  "project_id": "5b8c9142-7561-4e10-9913-95ff3483ff20",
+  "url": "/__l5e/assets-v1/da00a898-fdec-423d-8e40-bd004d8f9118/momen-digital-siswa-rayhan.webp",
+  "r2_key": "a/v1/5b8c9142-7561-4e10-9913-95ff3483ff20/da00a898-fdec-423d-8e40-bd004d8f9118/momen-digital-siswa-rayhan.webp",
   "original_filename": "momen-digital-siswa-rayhan.webp",
-  "project_id": "f2692ad0-2f83-4ca8-b0ec-ff27537c3e1d",
-  "r2_key": "a/v1/f2692ad0-2f83-4ca8-b0ec-ff27537c3e1d/6c06c30c-e6c5-4dfe-a957-d8adbb8f897e/momen-digital-siswa-rayhan.webp",
   "size": 8010,
-  "url": "/__l5e/assets-v1/6c06c30c-e6c5-4dfe-a957-d8adbb8f897e/momen-digital-siswa-rayhan.webp",
-  "version": 1
+  "content_type": "image/webp",
+  "created_at": "2026-11-26T11:50:20Z"
 }

@@ -1,9 +1,8 @@
 # Roadmap
 
 - [x] Migrasi proyek dari github.com/nempocreative/remix-of-remix-of-remix-of-remix-of-remix-of-nempo-feed-migration-5-54f9b1b3 (kode, slide, gambar, tes)
-- [ ] Salin ulang 199 foto/video yang masih tersimpan di tiga proyek Lovable lama — menunggu link situs terbit proyek lama atau unggahan ulang dari pemilik
-- [x] Migrasi seluruh proyek dari github.com/nempocreative/remix-of-nempo-feed-migration-5 (kode, slide, gambar, tes)
-- [ ] Salin 175 foto/video lain yang masih tersimpan di dua proyek lama yang terkunci (slide 52–57 sudah dipulihkan) — menunggu link situs terbit proyek lama atau unggahan ulang dari pemilik
+- [x] Pulihkan 26 foto/video dari proyek lama yang masih terbuka (GGS 63–64, Momen Digital, CFD 57, slide 59–62) — sudah diunggah ulang ke proyek ini dan sudah diuji tampil di pratinjau
+- [ ] Pulihkan 190 foto/video yang masih tersimpan di tiga proyek lama yang terkunci (9d460b8a 169, 5d83d26d 15, 102f7255 6) — menunggu pemilik mengirim file aslinya atau membuka akses proyek lama
 - [ ] Migrasi Tion Feed, MoU dan GGS Price List — setelah NEMPO Feed beres
 - [x] NEMPO Feed slide 56: desain ulang jadi poster ceria (gaya poster festival anak) dengan isi "Cara Kolaborasi" tetap
 - [x] Slide 56: gambar utama = ilustrasi KARTUN datar (gaya poster Kids Summer Fest, bukan foto) cafe/tempat wisata dengan panggung, penampil dan penonton; PNG unduhan dibuat ulang
