@@ -7,7 +7,6 @@ import titleArt from '@/assets/nempo-feed-63/nempo-feed-63-judul-bajidoran-dj.we
 import kendangGroup from '@/assets/nempo-feed-63/nempo-feed-63-kendang.webp.asset.json';
 import dancers from '@/assets/nempo-feed-63/nempo-feed-63-penari.webp.asset.json';
 import djGreen from '@/assets/nempo-feed-63/nempo-feed-63-dj-kaos-hijau.webp.asset.json';
-import djHoodie from '@/assets/nempo-feed-63/nempo-feed-63-dj-hoodie-x.webp.asset.json';
 import { nempoBajidoranFest as F } from './nempo-bajidoran-fest';
 import './NempoAjakRequestSlide.css';
 import './NempoBajidoranFestSlide.css';
@@ -52,11 +51,9 @@ export function NempoBajidoranFestSlide({ exportRef }: { exportRef?: RefObject<H
 
       <div className="nbx-cast" aria-hidden="true">
         <img className="nbx-dj nbx-dj--green" src={djGreen.url} alt="" draggable={false} />
-        <img className="nbx-dj nbx-dj--hoodie" src={djHoodie.url} alt="" draggable={false} />
         <img className="nbx-dancers" src={dancers.url} alt="" draggable={false} />
         <img className="nbx-kendang" src={kendangGroup.url} alt="" draggable={false} />
-        <span className="nbx-tag nbx-tag--green">{F.djs.side}</span>
-        <span className="nbx-tag nbx-tag--hoodie">{F.djs.front}</span>
+        <span className="nbx-tag nbx-tag--green">{F.dj}</span>
       </div>
 
       <span className="nbx-fade" aria-hidden="true" />

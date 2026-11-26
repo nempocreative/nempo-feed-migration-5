@@ -30,3 +30,4 @@
 - [x] Cek semua unduhan PNG: garis putih di tepi atas GGS 19 juga dihapus
 - [x] GGS Feed slide 64: Hari Guru 25 Nov 2026 — promo hari ini saja, Massage Rp 85.000 & Creambath Rp 80.000 + Download PNG 3240×4320
 - [x] NEMPO Feed slide 64: poster peringatan Hari Guru 25 Nov 2026 (ucapan saja, tanpa promo, tanpa bintang) + Download PNG 3240×4320
+- [x] NEMPO Feed slide 63: satu foto DJ saja (foto kacamata hitam di kanan dihapus), label "Guest DJ" jadi "DJ Dityar"

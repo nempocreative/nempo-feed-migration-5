@@ -5,6 +5,10 @@ describe('NEMPO Feed slide 63 Bajidoran DJ event poster', () => {
   it('is NEMPO Feed slide 63', () => {
     expect(NEMPO_BAJIDORAN_FEST_SLIDE).toBe(63);
   });
+  it('shows one DJ only: DJ Dityar, no Guest DJ', () => {
+    expect(nempoBajidoranFest.dj).toBe('DJ Dityar');
+    expect(JSON.stringify(nempoBajidoranFest)).not.toMatch(/guest\s*dj/i);
+  });
   it('is held on Friday 27 November 2026', () => {
     const { weekday, day, month, year } = nempoBajidoranFest.date;
     expect(`${weekday}, ${day} ${month} ${year}`).toBe('Jumat, 27 Nov 2026');

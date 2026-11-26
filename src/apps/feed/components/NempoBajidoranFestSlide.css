@@ -26,7 +26,6 @@
 .nbx-cast { position: absolute; z-index: 5; inset: 0; pointer-events: none; }
 .nbx-cast img { position: absolute; display: block; height: auto; user-select: none; filter: var(--nbx-cutout-shadow); }
 .nbx-dj--green { left: -3cqw; top: 55cqw; width: 30cqw; }
-.nbx-dj--hoodie { right: -1cqw; top: 53cqw; width: 26cqw; }
 .nbx-dancers { left: 0cqw; top: 79cqw; width: 42cqw; z-index: 2; }
 .nbx-kendang { left: 31cqw; top: 62cqw; width: 58cqw; z-index: 1; }
 .nbx-tag {
@@ -35,7 +34,6 @@
   color: var(--nbx-white); background: var(--nbx-ink); box-shadow: var(--nbx-tag-shadow); transform: rotate(-4deg);
 }
 .nbx-tag--green { left: 4cqw; top: 69cqw; }
-.nbx-tag--hoodie { right: 3cqw; top: 67cqw; transform: rotate(4deg); }
 
 /* Activity pills (like Vibez "Activities") */
 .nbx-activities { position: absolute; z-index: 7; left: 3cqw; right: 3cqw; top: 98cqw; display: flex; justify-content: center; align-items: center; gap: 1.6cqw; }
