@@ -40,3 +40,5 @@
 - [x] Slide 63: foto kaus hijau tetap di kiri sebagai MC, kanan pakai foto DJ Dityar yang benar (juga Story 65)
 - [x] Slide 63: kecilkan font tanggal supaya "Jumat" tidak mepet ke kotak
 - [x] Slide 63/65: bersihkan sisa latar (kotak samar) di belakang foto MC dan DJ
+- [x] Slide 63/65: foto MC kembali ke potongan asli yang halus (kepala utuh), unduhan dibuat ulang
+- [x] Slide 63/65: hasil unduhan disamakan dengan pratinjau terbaru (diuji lewat tombol unduh)
