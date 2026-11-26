@@ -1,5 +1,6 @@
 import type { RefObject } from 'react';
 import { Disc3, Drum, MapPin, Music2, Phone } from 'lucide-react';
+import { FaInstagram, FaTiktok } from 'react-icons/fa';
 import gscLogo from '@/assets/good-story-cafe-logo.jpg';
 import saduliLogo from '@/assets/saduli-ragap-entertainment-logo-keyed.png';
 import backdrop from '@/assets/nempo-feed-63/nempo-feed-63-latar-festival.webp.asset.json';
@@ -17,7 +18,7 @@ const ACTIVITY_TONES = ['gold', 'pink', 'violet'] as const;
 /**
  * NEMPO Feed slide 63 (3:4): Vibez-Fest-style poster — header shared with the Good Story Cafe event slides
  * (NEMPO.ID × Kala Muda, Saduli Ragap, Good Story Cafe), the owner's 3D title lettering, the performers as
- * cut-outs, activity pills, time row, date + venue boxes and a white info bar. Static so the PNG matches.
+ * cut-outs, activity pills, time row, date + venue boxes and rounded contact cards. Static so the PNG matches.
  */
 export function NempoBajidoranFestSlide({ exportRef }: { exportRef?: RefObject<HTMLElement | null> }) {
   const { date, venue, info } = F;
@@ -94,8 +95,12 @@ export function NempoBajidoranFestSlide({ exportRef }: { exportRef?: RefObject<H
       </div>
 
       <footer className="nbx-bar">
-        <span><Phone aria-hidden="true" />{info.label}: <b>{info.number}</b></span>
-        <span className="nbx-bar-socials">{F.socials}</span>
+        <span className="nbx-contact nbx-contact--phone"><Phone aria-hidden="true" />{info.label}: <b>{info.number}</b></span>
+        {F.socials.split(' · ').map((account) => (
+          <span className="nbx-contact nbx-contact--social" key={account}>
+            <FaInstagram aria-hidden="true" /><FaTiktok aria-hidden="true" /><b>{account}</b>
+          </span>
+        ))}
       </footer>
     </section>
   );

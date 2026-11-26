@@ -68,12 +68,18 @@
 .nbx-venue b { font-family: 'Anton', sans-serif; font-weight: 400; font-size: 4.6cqw; line-height: 1.1; text-transform: uppercase; }
 .nbx-venue small { font-weight: 700; font-size: 2.15cqw; white-space: nowrap; line-height: 1.15; text-transform: uppercase; color: var(--nbx-ink-soft); }
 
-/* White bottom bar (like the Vibez partners strip) */
+/* Separate rounded contact cards, with the poster visible between and beneath them. */
 .nbx-bar {
-  position: absolute; z-index: 8; left: 0; right: 0; bottom: 0; height: 5.4cqw; display: flex; align-items: center; justify-content: space-between;
-  padding: 0 5cqw; background: var(--nbx-white); color: var(--nbx-ink); font-weight: 600; font-size: 2.5cqw; line-height: 1;
+  position: absolute; z-index: 8; left: 4cqw; right: 4cqw; bottom: 1.5cqw;
+  display: flex; align-items: center; justify-content: center; gap: 1.2cqw;
+  color: var(--nbx-ink); font-weight: 600; font-size: 1.85cqw; line-height: 1;
 }
-.nbx-bar span { display: inline-flex; align-items: center; gap: 1cqw; white-space: nowrap; }
-.nbx-bar svg { width: 2.6cqw; height: 2.6cqw; }
+.nbx-contact {
+  display: inline-flex; align-items: center; justify-content: center; gap: .8cqw;
+  height: 4.7cqw; padding: 0 1.7cqw; border-radius: 99cqw; white-space: nowrap;
+  background: var(--nbx-cream); box-shadow: var(--nbx-pill-shadow);
+}
+.nbx-contact--phone { flex: 1; }
+.nbx-contact--social { background: var(--nbx-ink); color: var(--nbx-white); }
+.nbx-bar svg { width: 2.3cqw; height: 2.3cqw; flex: none; }
 .nbx-bar b { font-weight: 800; }
-.nbx-bar-socials { font-weight: 800; }
