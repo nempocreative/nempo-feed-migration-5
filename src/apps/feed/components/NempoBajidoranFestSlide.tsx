@@ -7,7 +7,8 @@ import backdrop from '@/assets/nempo-feed-63/nempo-feed-63-latar-festival.webp.a
 import titleArt from '@/assets/nempo-feed-63/nempo-feed-63-judul-bajidoran-dj.webp.asset.json';
 import kendangGroup from '@/assets/nempo-feed-63/nempo-feed-63-kendang.webp.asset.json';
 import dancers from '@/assets/nempo-feed-63/nempo-feed-63-penari.webp.asset.json';
-import djGreen from '@/assets/nempo-feed-63/nempo-feed-63-dj-dityar.png.asset.json';
+import mcPhoto from '@/assets/nempo-feed-63/nempo-feed-63-dj-dityar.png.asset.json';
+import djPhoto from '@/assets/nempo-feed-50-dj-dityar-tilted.png';
 import { nempoBajidoranFest as F } from './nempo-bajidoran-fest';
 import './NempoAjakRequestSlide.css';
 import './NempoBajidoranFestSlide.css';
@@ -51,10 +52,12 @@ export function NempoBajidoranFestSlide({ exportRef, story = false }: { exportRe
       </h2>
 
       <div className="nbx-cast" aria-hidden="true">
-        <img className="nbx-dj nbx-dj--green" src={djGreen.url} alt="" draggable={false} />
+        <img className="nbx-dj nbx-mc" src={mcPhoto.url} alt="" draggable={false} />
+        <img className="nbx-dj nbx-dj--right" src={djPhoto} alt="" draggable={false} />
         <img className="nbx-dancers" src={dancers.url} alt="" draggable={false} />
         <img className="nbx-kendang" src={kendangGroup.url} alt="" draggable={false} />
-        <span className="nbx-tag nbx-tag--green">{F.dj}</span>
+        <span className="nbx-tag nbx-tag--mc">{F.mc}</span>
+        <span className="nbx-tag nbx-tag--dj">{F.dj}</span>
       </div>
 
       <span className="nbx-fade" aria-hidden="true" />

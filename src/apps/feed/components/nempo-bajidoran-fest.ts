@@ -2,7 +2,7 @@ import { nempoBajidoran, weekdayId } from './nempo-bajidoran';
 
 /**
  * NEMPO Feed slide 63 — Vibez-Fest-style event poster for the next Bajidoran DJ night at Good Story Cafe:
- * the owner's 3D "BAJIDORAN DJ" lettering, the kendang group, the dancers and one DJ as a cut-out over a warm
+ * the owner's 3D "BAJIDORAN DJ" lettering, the kendang group, the dancers and the MC (left) and DJ Dityar (right) as cut-outs over a warm
  * hazy stage backdrop, with the same header as the earlier Good Story Cafe event slides (46–53).
  */
 export const NEMPO_BAJIDORAN_FEST_SLIDE = 63;
@@ -18,6 +18,7 @@ export const nempoBajidoranFest = {
   title: 'Bajidoran DJ',
   activitiesLabel: 'Acara:',
   activities: ['Kendang Jaipong', 'Penari Bajidor', 'DJ Set'],
+  mc: 'MC',
   dj: 'DJ Dityar',
   schedule: [
     { label: 'Mulai', value: '18.00 WIB' },

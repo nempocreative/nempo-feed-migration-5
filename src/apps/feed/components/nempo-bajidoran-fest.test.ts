@@ -10,7 +10,8 @@ describe('NEMPO Feed slide 63 Bajidoran DJ event poster', () => {
   it('is NEMPO Feed slide 63', () => {
     expect(NEMPO_BAJIDORAN_FEST_SLIDE).toBe(63);
   });
-  it('shows one DJ only: DJ Dityar, no Guest DJ', () => {
+  it('tags the left photo as MC and the right photo as DJ Dityar, no Guest DJ', () => {
+    expect(nempoBajidoranFest.mc).toBe('MC');
     expect(nempoBajidoranFest.dj).toBe('DJ Dityar');
     expect(JSON.stringify(nempoBajidoranFest)).not.toMatch(/guest\s*dj/i);
   });

@@ -36,4 +36,7 @@
 - [x] Slide 63: hapus akun Instagram Kala Muda dari footer, sisakan @nempo.id
 - [x] Slide 63: PNG tajam 3240×4320 sesuai tampilan terbaru, hubungkan tombol dan uji hasil unduhan (file identik dengan tangkapan berkualitas tinggi)
 - [x] Slide 65: versi Story 9:16 poster slide 63 dan unduhan PNG 3240×5760, diuji identik dengan tangkapan pratinjau
-- [ ] Slide 63: foto MC jangan dihapus; letakkan DJ di sisi kanan yang kosong (juga versi Story 65), lalu unduhan PNG dibuat ulang
+- [x] Slide 63: foto MC jangan dihapus; letakkan DJ di sisi kanan yang kosong (juga versi Story 65), lalu unduhan PNG dibuat ulang
+- [x] Slide 63: foto kaus hijau tetap di kiri sebagai MC, kanan pakai foto DJ Dityar yang benar (juga Story 65)
+- [x] Slide 63: kecilkan font tanggal supaya "Jumat" tidak mepet ke kotak
+- [x] Slide 63/65: bersihkan sisa latar (kotak samar) di belakang foto MC dan DJ

@@ -1,11 +1,11 @@
 {
-  "asset_id": "b2924b0a-0eca-457c-96cc-42ba3f3cb29e",
-  "content_type": "image/png",
-  "created_at": "2026-11-26T12:15:17Z",
-  "original_filename": "nempo-feed-65-bajidoran-story.png",
+  "version": 1,
+  "asset_id": "a39ba63e-2538-41ab-b299-befdce279822",
   "project_id": "2c9b02c8-081e-4462-a274-6b6a3e96915b",
-  "r2_key": "a/v1/2c9b02c8-081e-4462-a274-6b6a3e96915b/b2924b0a-0eca-457c-96cc-42ba3f3cb29e/nempo-feed-65-bajidoran-story.png",
-  "size": 11774599,
-  "url": "/__l5e/assets-v1/b2924b0a-0eca-457c-96cc-42ba3f3cb29e/nempo-feed-65-bajidoran-story.png",
-  "version": 1
+  "url": "/__l5e/assets-v1/a39ba63e-2538-41ab-b299-befdce279822/nempo-feed-65-bajidoran-story.png",
+  "r2_key": "a/v1/2c9b02c8-081e-4462-a274-6b6a3e96915b/a39ba63e-2538-41ab-b299-befdce279822/nempo-feed-65-bajidoran-story.png",
+  "original_filename": "nempo-feed-65-bajidoran-story.png",
+  "size": 13083459,
+  "content_type": "image/png",
+  "created_at": "2026-11-26T12:54:41Z"
 }
