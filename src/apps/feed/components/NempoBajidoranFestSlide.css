@@ -51,13 +51,13 @@
 .nbx-fade { position: absolute; z-index: 6; left: 0; right: 0; bottom: 0; height: 50cqw; pointer-events: none; background: var(--nbx-fade); }
 
 /* Time row */
-.nbx-times { position: absolute; z-index: 7; left: 4cqw; right: 4cqw; top: 107cqw; display: flex; justify-content: center; gap: 4cqw; }
+.nbx-times { position: absolute; z-index: 7; left: 4cqw; right: 4cqw; top: 105.5cqw; display: flex; justify-content: center; gap: 4cqw; }
 .nbx-time { display: inline-flex; align-items: center; gap: 1.6cqw; }
 .nbx-time-label { font-family: 'Anton', sans-serif; font-size: 6.4cqw; line-height: 1.2; text-transform: uppercase; color: var(--nbx-cream); text-shadow: var(--nbx-time-shadow); }
 .nbx-time-value { padding: .5cqw 1.6cqw .6cqw; font-family: 'Anton', sans-serif; font-size: 4.8cqw; line-height: 1.2; text-transform: uppercase; color: var(--nbx-ink); background: var(--nbx-tag-fill); }
 
 /* Date + venue boxes */
-.nbx-info { position: absolute; z-index: 7; left: 4cqw; right: 4cqw; top: 116cqw; height: 10.6cqw; display: flex; gap: 1.6cqw; }
+.nbx-info { position: absolute; z-index: 7; left: 4cqw; right: 4cqw; top: 114.5cqw; height: 9.6cqw; display: flex; gap: 1.6cqw; }
 .nbx-info > div { display: flex; align-items: center; background: var(--nbx-box); box-shadow: var(--nbx-box-shadow); color: var(--nbx-ink); }
 .nbx-date { flex: none; flex-direction: column; justify-content: center; align-items: center !important; padding: 0 3.4cqw; }
 .nbx-date small { font-weight: 800; font-size: 2.4cqw; line-height: 1; text-transform: uppercase; letter-spacing: .14em !important; color: var(--nbx-ink-soft); }
@@ -68,18 +68,7 @@
 .nbx-venue b { font-family: 'Anton', sans-serif; font-weight: 400; font-size: 4.6cqw; line-height: 1.1; text-transform: uppercase; }
 .nbx-venue small { font-weight: 700; font-size: 2.15cqw; white-space: nowrap; line-height: 1.15; text-transform: uppercase; color: var(--nbx-ink-soft); }
 
-/* Separate rounded contact cards, with the poster visible between and beneath them. */
-.nbx-bar {
-  position: absolute; z-index: 8; left: 4cqw; right: 4cqw; bottom: 1.5cqw;
-  display: flex; align-items: center; justify-content: center; gap: 1.2cqw;
-  color: var(--nbx-ink); font-weight: 600; font-size: 1.85cqw; line-height: 1;
-}
-.nbx-contact {
-  display: inline-flex; align-items: center; justify-content: center; gap: .8cqw;
-  height: 4.7cqw; padding: 0 1.7cqw; border-radius: 99cqw; white-space: nowrap;
-  background: var(--nbx-cream); box-shadow: var(--nbx-pill-shadow);
-}
-.nbx-contact--phone { flex: 1; }
-.nbx-contact--social { background: var(--nbx-ink); color: var(--nbx-white); }
-.nbx-bar svg { width: 2.3cqw; height: 2.3cqw; flex: none; }
-.nbx-bar b { font-weight: 800; }
+/* Same single-line pills as slide 62; only the vertical anchor differs to clear the event details. */
+.nbx-root .nbx-footer { z-index: 9; bottom: 3.5cqw; font-family: 'DM Sans', sans-serif; }
+.nbx-footer .kmt-pill { line-height: 1.2; }
+.nbx-footer .kmt-pill strong { letter-spacing: 0 !important; }

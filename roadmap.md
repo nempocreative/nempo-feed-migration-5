@@ -31,3 +31,6 @@
 - [x] NEMPO Feed slide 64: poster peringatan Hari Guru 25 Nov 2026 (ucapan saja, tanpa promo, tanpa bintang) + Download PNG 3240×4320
 - [x] NEMPO Feed slide 63: satu foto DJ saja (foto kacamata hitam di kanan dihapus), label "Guest DJ" jadi "DJ Dityar"
 - [x] NEMPO Feed slide 63: ganti strip putih bawah dengan kartu kontak bundar, nomor telepon dan akun sosial tetap
+- [x] Slide 63: rapikan kartu kontak menjadi dua kartu sejajar, tulisan lebih besar dan akun sosial dikelompokkan
+- [x] Slide 63: samakan footer dengan slide 62, sederhana dan rapi dengan kontak tetap
+- [x] Slide 63: hapus akun Instagram Kala Muda dari footer, sisakan @nempo.id

@@ -1,6 +1,6 @@
 import type { RefObject } from 'react';
-import { Disc3, Drum, MapPin, Music2, Phone } from 'lucide-react';
-import { FaInstagram, FaTiktok } from 'react-icons/fa';
+import { Disc3, Drum, MapPin, Music2 } from 'lucide-react';
+import { FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa6';
 import gscLogo from '@/assets/good-story-cafe-logo.jpg';
 import saduliLogo from '@/assets/saduli-ragap-entertainment-logo-keyed.png';
 import backdrop from '@/assets/nempo-feed-63/nempo-feed-63-latar-festival.webp.asset.json';
@@ -94,13 +94,9 @@ export function NempoBajidoranFestSlide({ exportRef }: { exportRef?: RefObject<H
         </div>
       </div>
 
-      <footer className="nbx-bar">
-        <span className="nbx-contact nbx-contact--phone"><Phone aria-hidden="true" />{info.label}: <b>{info.number}</b></span>
-        {F.socials.split(' · ').map((account) => (
-          <span className="nbx-contact nbx-contact--social" key={account}>
-            <FaInstagram aria-hidden="true" /><FaTiktok aria-hidden="true" /><b>{account}</b>
-          </span>
-        ))}
+      <footer className="kmt-footer nbx-footer" aria-label={info.label}>
+        <span className="kmt-pill kmt-pill-wa"><FaWhatsapp aria-hidden="true" />{info.number}</span>
+        <span className="kmt-pill"><FaInstagram aria-hidden="true" /><FaTiktok aria-hidden="true" /><strong>{F.socials}</strong></span>
       </footer>
     </section>
   );

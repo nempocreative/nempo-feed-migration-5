@@ -24,5 +24,5 @@ export const nempoBajidoranFest = {
   date: { iso, weekday: weekdayId(iso), day: '27', month: 'Nov', year: '2026' },
   venue: nempoBajidoran.venue,
   info: nempoBajidoran.info,
-  socials: '@nempo.id · @kalamudacom',
+  socials: '@nempo.id',
 } as const;
