@@ -295,6 +295,7 @@ import { NempoTerimaKasihSlide } from './components/NempoTerimaKasihSlide';
 import terimaKasih53Png from '@/assets/nempo-feed-53/nempo-feed-53-hatur-nuhun-transparan.png.asset.json';
 import malamMinggu54Png from '@/assets/nempo-feed-54/nempo-feed-54-malam-minggu.png.asset.json';
 import hariGuru64Png from '@/assets/nempo-feed-64/nempo-feed-64-hari-guru.png.asset.json';
+import bajidoran63Png from '@/assets/nempo-feed-63/nempo-feed-63-bajidoran-dj.png.asset.json';
 import hariIni52VideoAsset from '@/assets/nempo-feed-52-hari-ini.mp4.asset.json';
 import { NempoBajidoranSawerSlide } from './components/NempoBajidoranSawerSlide';
 import nempoBajidoranReelDownload from '@/assets/nempo-feed-47-bajidoran-reel-download.mp4.asset.json';
@@ -4458,6 +4459,14 @@ function App() {
                   PNG 3240×4320, teks tajam. Di iPad/iPhone pilih “Simpan Gambar” atau “Simpan ke File”.
                 </p>
               </>
+            ) : isNempoFeed && activeSlide === NEMPO_BAJIDORAN_FEST_SLIDE ? (
+              <PrebuiltPngDownload
+                key="nempo-feed-63"
+                src={bajidoran63Png.url}
+                fileName="Nempo-ID-63-Bajidoran-DJ.png"
+                label="Download PNG · 3×"
+                className="inline-flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-xs font-bold text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              />
             ) : isNempoFeed && activeSlide === NEMPO_HARI_GURU_SLIDE ? (
               <>
                 <PrebuiltPngDownload
